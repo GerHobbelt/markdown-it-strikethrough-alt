@@ -1,8 +1,8 @@
 # markdown-it-strikethrough-alt
 
-[![Build Status](https://img.shields.io/travis/markdown-it/markdown-it-strikethrough-alt/master.svg?style=flat)](https://travis-ci.org/markdown-it/markdown-it-strikethrough-alt)
+[![Build Status](https://img.shields.io/travis/jay-hodgson/markdown-it-strikethrough-alt/master.svg?style=flat)](https://travis-ci.org/jay-hodgson/markdown-it-strikethrough-alt)
 [![NPM version](https://img.shields.io/npm/v/markdown-it-strikethrough-alt.svg?style=flat)](https://www.npmjs.org/package/markdown-it-strikethrough-alt)
-[![Coverage Status](https://img.shields.io/coveralls/markdown-it/markdown-it-strikethrough-alt/master.svg?style=flat)](https://coveralls.io/r/markdown-it/markdown-it-strikethrough-alt?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/jay-hodgson/markdown-it-strikethrough-alt/master.svg?style=flat)](https://coveralls.io/r/jay-hodgson/markdown-it-strikethrough-alt?branch=master)
 
 > Alternative syntax strikethrough (`<s>`) tag plugin for [markdown-it](https://github.com/markdown-it/markdown-it) markdown parser.
 
