@@ -1,0 +1,94 @@
+.
+--Strikeout--
+.
+<p><s>Strikeout</s></p>
+.
+
+.
+x ----foo-- bar--
+.
+<p>x --<s>foo</s> bar--</p>
+.
+
+.
+x --foo --bar----
+.
+<p>x <s>foo </s>bar----</p>
+.
+
+.
+x ----foo----
+.
+<p>x --<s>foo--</s></p>
+.
+
+.
+-----
+.
+<hr>
+.
+
+.
+x --a --foo----------~bar-- b--
+
+x --a --foo------------bar-- b--
+.
+<p>x <s>a </s>foo--------<s>~bar</s> b--</p>
+<p>x <s>a </s>foo----------<s>bar</s> b--</p>
+.
+
+
+Strikeouts have the same priority as emphases:
+.
+**--test**--
+
+--**test--**
+.
+<p><strong>--test</strong>--</p>
+<p><s>**test</s>**</p>
+.
+
+
+Strikeouts have the same priority as emphases with respect to links:
+.
+[--link]()--
+
+--[link--]()
+.
+<p><a href="">--link</a>--</p>
+<p>--<a href="">link--</a></p>
+.
+
+
+Strikeouts have the same priority as emphases with respect to backticks:
+.
+--`code--`
+
+`--code`--
+.
+<p>--<code>code--</code></p>
+<p><code>--code</code>--</p>
+.
+
+.
+--foo --bar-- baz--
+
+--f **o --o b-- a** r--
+.
+<p><s>foo </s>bar<s> baz</s></p>
+<p><s>f **o </s>o b<s> a** r</s></p>
+.
+
+
+Ok to have a whitespace between text and "--":
+.
+foo -- bar -- baz
+.
+<p>foo <s> bar </s> baz</p>
+.
+
+.
+a--"foo"--
+.
+<p>a<s>&quot;foo&quot;</s></p>
+.
