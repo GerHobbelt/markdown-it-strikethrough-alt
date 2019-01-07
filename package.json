@@ -1,6 +1,6 @@
 {
-  "name": "markdown-it-strikethrough-alt",
-  "version": "1.0.0",
+  "name": "@gerhobbelt/markdown-it-strikethrough-alt",
+  "version": "1.0.0-1",
   "description": "tag for markdown-it markdown parser.",
   "main": "index.js",
   "keywords": [
@@ -21,7 +21,8 @@
     "pretest": "npm run lint",
     "test": "npm run lint && mocha -R spec",
     "coverage": "rm -rf coverage && istanbul cover node_modules/.bin/_mocha",
-    "test-ci": "npm run lint && istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf coverage"
+    "test-ci": "npm run lint && istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf coverage",
+    "pub": "npm publish --access public"
   },
   "homepage": "https://github.com/jay-hodgson/markdown-it-strikethrough-alt",
   "repository": {
@@ -34,17 +35,17 @@
   "license": "MIT",
   "main": "index.js",
   "devDependencies": {
-    "browserify": "*",
-    "coveralls": "^2.11.2",
-    "eslint": "0.10.2",
-    "eslint-plugin-nodeca": "^1.0.0",
-    "istanbul": "*",
-    "lodash": "*",
-    "markdown-it": "markdown-it/markdown-it",
-    "markdown-it-testgen": "~0.1.0",
-    "mocha": "*",
-    "request": "*",
-    "uglify-js": "*"
+    "browserify": "16.2.3",
+    "coveralls": "3.0.2",
+    "eslint": "5.12.0",
+    "eslint-plugin-nodeca": "1.0.3",
+    "istanbul": "0.4.5",
+    "lodash": "4.17.11",
+    "@gerhobbelt/markdown-it": "8.4.2-24",
+    "@gerhobbelt/markdown-it-testgen": "0.1.5-6",
+    "mocha": "5.2.0",
+    "request": "2.88.0",
+    "uglify-js": "3.4.9"
   },
   "dependencies": {},
   "directories": {
