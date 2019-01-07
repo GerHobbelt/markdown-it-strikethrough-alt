@@ -1,6 +1,6 @@
 {
   "name": "@gerhobbelt/markdown-it-strikethrough-alt",
-  "version": "1.0.0-1",
+  "version": "1.0.0-2",
   "description": "tag for markdown-it markdown parser.",
   "main": "index.js",
   "keywords": [
@@ -33,7 +33,6 @@
     "url": "https://github.com/jay-hodgson/markdown-it-strikethrough-alt/issues"
   },
   "license": "MIT",
-  "main": "index.js",
   "devDependencies": {
     "browserify": "16.2.3",
     "coveralls": "3.0.2",
