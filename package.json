@@ -17,7 +17,7 @@
     "dist": "rm -fr dist && mkdir dist && npm run browserify && npm run minify",
     "lint": "eslint --reset index.js",
     "minify": "uglifyjs dist/markdown-it-strikethrough-alt.js -b beautify=false,ascii-only=true -c -m --preamble \"/*! ${npm_package_name} ${npm_package_version} ${npm_package_homepage} @license MIT */\" > dist/markdown-it-strikethrough-alt.min.js",
-    "prepublish": "npm run dist",
+    "prepublish-orig": "npm run dist",
     "pretest": "npm run lint",
     "test": "npm run lint && mocha -R spec",
     "coverage": "rm -rf coverage && istanbul cover node_modules/.bin/_mocha",
